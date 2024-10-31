@@ -1,0 +1,22 @@
+.sidebar {
+  height: 100vh;
+}
+
+.user-controls span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 1.2em; /* Adjusts icon size */
+  color: #6c757d; /* Bootstrap's secondary color */
+}
+.icon-container:hover .icon {
+  color: #007bff; /* Changes color on hover */
+}
+
